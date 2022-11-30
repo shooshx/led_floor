@@ -1,0 +1,130 @@
+calib
+812.595
+
+from cuts
+805.363
+
+2d coutour cutting 6 mm
+
+tool - 1.8mm but should be 2.0 mm
+tab - height 2mm
+
+- passes
+sideways compensation - Left
+Multiple Finishing Passes V
+Number of Finishing Passes 1
+Stepover 0.18 mm
+Repeat Finishing pass V
+
+Maxiumum roughing Stepdown - 1mm
+Finishing Stepdown 2mm
+Finish Only at Final Depth V
+Rough Final V
+
+--------
+12 mm ply
+
+extrude height 12.55
+bit 3.175 -> 2.875 for straigt tab? ?
+             2.6 for loose tab   
+
+geom tabs
+  rectangular
+  width 3 mm
+  height 2.8
+
+
+1053 - real tab, 2.6bit 
+   good fit somewhat loose
+   0.2 stepover, 500 feed
+   2mm stepdown
+   repeat finishing pass
+1054 - save but wut 2.7 bit
+   very tight fit
+
+1055 -utab with adaptive 2.65 bit
+
+1057 -utab, 2.65 bit
+   normal hole
+   some slop yet
+
+recalibrated XY axis 801.835
+
+1058 - utab - 2.7 bit
+   removed lead in/out
+   shorter tabs 2.8 height instead of 3.5
+   
+1059 - wall test 2.7bit
+   12.34 gap
+   too tight, too shallow
+
+recalibrated X axis to 795.669
+
+1060 - wall test 2.7 bit
+   increased extrude to the normal 12.55
+   increased gap to 12.50
+   still too tight
+
+1061 - wall test 2.7 bit
+   icrease gap 12.65
+   increase gap depth by 0.3
+   too loose!
+
+1062 - wall tes 2.7 bit
+   decrease gap to 12.58
+   too tight
+   0.3 gap depth was too much
+
+1063 - wall test 2.7 bit
+   increase gap 12.62
+   decrease depth to 0.2
+
+1070 - first wall 2.7 bit, too 57min
+   tabs seem to be ok dimesions
+   gap a tiny bit too loose - not really
+   bstrip way too unstable
+   small holes burnout
+   perimiter too deep
+
+surfaced the bed
+   too deeply
+   surfacing bit isn't very good 
+
+1073 - wall 2.7 bit
+   decrease wall extrude from 12.55 to 12.3
+   decrease utab depth from 6.16 to 6.12
+   btn holder max stepover decreased to 1.5 ?
+   bore cutting feedrate decrease from 1000 to 500
+
+1074
+   decrease gap depth wall_gap_extra from 0.2 to 0.15
+   changed tab positions
+
+1075
+   bore - slightly deeper holes
+
+1076
+  light holes fix for 1075
+
+1078 wall
+  tighter path in the btn holder
+  wider holes for light holder
+  even slower bore feed from 500 to 250
+  frame contour finish feed from 1000 to 500 to try to avoid chattering
+
+1079 light holder with 4mm ply 2.7bit
+  too short, too deep
+
+1080 light holder 2.7 bit
+  reduced length fudge by 1mm from 1.38 to 0.38
+  reduced extrude from 4.0 to 3.87
+
+1081 light holder 2.7 bit
+  2 tabs in each side instead of 1
+
+NEXT wall
+  slightly tigher bstrip holes  3.7 to ???  TODO
+  longer bstrip holes for 4 tabs in light holder
+
+NEXT light holder
+  a bit longer?
