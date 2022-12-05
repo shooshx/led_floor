@@ -1,0 +1,22 @@
+UGS on orange pi
+- it comes with java 32 bit which doesn't work
+
+sudo apt update
+sudo apt install openjdk-8-jdk
+
+sudo update-alternatives --config java
+
+ln -s the jdk in the ugs folder to where this installed java-8
+needed to do chmod a+x to what it's running
+needed to delete its folder in home
+
+doesn't find the port
+
+-----
+bCNC
+
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt-get install python3-tk
+
+python -m bCNC

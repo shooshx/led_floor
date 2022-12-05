@@ -1,0 +1,125 @@
+(1015)
+(T1  D=2 CR=0 - ZMIN=-6.25 - flat end mill)
+G90 G94
+G17
+G21
+(When using Fusion 360 for Personal Use, the feedrate of)
+(rapid moves is reduced to match the feedrate of cutting)
+(moves, which can increase machining time. Unrestricted rapid)
+(moves are available with a Fusion 360 Subscription.)
+
+(2D Contour5)
+S5000 M3
+G54
+G0 X-1 Y0
+Z10.25
+G1 Z5.25 F500
+Z2.25 F166.7
+Z-0.75
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-1.75 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-2.75 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-3.75 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-4.75 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-5.75 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z-6.25 F166.7
+Y80 F500
+Y81
+X26
+Y59
+X14
+Y41
+X25
+X26
+Y19
+X14
+Y0
+Y-1
+X-1
+Y0
+Z10.25
+M5
+M30

@@ -122,9 +122,83 @@ surfaced the bed
 1081 light holder 2.7 bit
   2 tabs in each side instead of 1
 
-NEXT wall
-  slightly tigher bstrip holes  3.7 to ???  TODO
+1082 light holder 2.7 bit 
+  better tabs
+
+switchted the grain of the plywood 90 degrees
+
+1083 wall 2.7 bit
   longer bstrip holes for 4 tabs in light holder
+  removed old btn holders, moved btn holes, set to 3.95mm
+  bigger wire hole  
+  slightly tigher bstrip holes  3.7 to ??? 
+  - everything is too tight! - due to grain flip?
+
+1084 wall - should move to 2.65 bit?
+  
+1085 test utab - changed bit to 2.65
+  updated geometry and steps to match wall
+  width of tab 38.21
+
+1086 test utab changed bit to 2.6, 2 finishinng passes at 0.18
+  even worse
+  width of tab 38.26
+  doesn't fit in hole
+
+1087 test utab changed bit to 2.8, changed finishing back to 1 pass at 0.2
+
+1088 test utab 
+   back tovertical grail
+   back to 2.7 bit
+   with 2 finish passes AT 0.18
+
+1089 wall, back to 2.7 bit
+   back to vertical grain
+   no fit
+
+1090 utab test with 2.5 bit
+   horizontal grain
+   - good fit
+
+1091 wall 2.5 bit
+   horizontal grain
+   reduced stepdowns of tab and contour to 1mm to try to reduce wear on bit
+   M4 screw is too loose
+   gap is a bit too loose
+
+1092 wall only parimiter fix
+
+1093 btn holder 1.8bit (real bit is 2.0 corn bit)
+   1 mm stepdowns
+   3.9 holes
+
+1094 btn 1.8bit
+   chnaged extrude from 5 to 5.4
+   - tabs too big
+   - bit should be 2.0
+   - way too stiff
+
+1095 btn 2.0 bit
+   changed linking of inner hole to keep tool down
+   reduced tab size and made them triangle
+   reduced bridge to 1.5
+   - M4 hole too tight
+   - still a bit too stiff
+
+1096 btn 2.0 bit
+   bigger M4 holes from 3.9 to 4.1
+   bigger slots
+   - good flexibility, M4 still too tight
+
+NEXT wall
+   changed stepdown from 1mm to 1.5mm, prev was too long
+   reduced tabs height from 2.8 to 2.7 to match step downs
+   changed middle tab position to be less stupid
+   reduced btn holes from 4 to 3.9
+   reduced gap from 12.62 to 12.59
+   changed bstrip_from_buttom from 10 to 9
+   increased bstrip width by 2mm to add some slop
+
 
 NEXT light holder
   a bit longer?
