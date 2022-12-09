@@ -190,7 +190,7 @@ switchted the grain of the plywood 90 degrees
    bigger slots
    - good flexibility, M4 still too tight
 
-NEXT wall
+1097 wall - 2.5 was too loose
    changed stepdown from 1mm to 1.5mm, prev was too long
    reduced tabs height from 2.8 to 2.7 to match step downs
    changed middle tab position to be less stupid
@@ -198,6 +198,26 @@ NEXT wall
    reduced gap from 12.62 to 12.59
    changed bstrip_from_buttom from 10 to 9
    increased bstrip width by 2mm to add some slop
+
+1098 wall - 2.7 skipped step on the tabs
+
+1099 wall 2.7
+   reduce stepdown from 1.5 to 1.0
+   reduced gap to 12.5
+   - good fit
+   - gap still too loose
+   - M4 still too loose  - but only on the top side!
+
+1100 wall 2.7
+   reduced gap to 12.4
+   added bore repeat pass, reduced diam from 3.9 to 3.84
+
+1101-1107 bore tests
+   best is 3.4 hole, 2.7 bit, 0.5 pitch 0.1 multi step, 80 feed
+
+1108 wall 2.7 bit
+   changed M4 holes to match test
+   reduced M6 holes to 5.8 to match 
 
 
 NEXT light holder
