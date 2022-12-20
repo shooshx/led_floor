@@ -219,6 +219,37 @@ switchted the grain of the plywood 90 degrees
    changed M4 holes to match test
    reduced M6 holes to 5.8 to match 
 
+1109 wall 2.65 fix
+   last one fit was too tight
+   needed to do this fix for the next one
+
+1110 wall changed tool to 2.65
+   too tight!
+
+new 3.175 down cut bit
+1111 tab test 2.7bit
+   1mm downstep
+   too loose
+   too deep
+
+1112 tab test 2.9 bit
+   tab depth up by 0.8 from 6.35 to 7.15 (bottom measure)
+   - good fit
+   - tab depth too low
+   - moved down by -0.4 to 6.75
+
+1113 wall 2.9 bit
+   tab depth up 0.4 from 6.35 to 6.75
+   - tab is too high now
+
+1114 wall 2.9 bit
+   tab depth back to 6.35
+
+
+/dev/ttyACM0
+
+
+
 
 NEXT light holder
   a bit longer?
