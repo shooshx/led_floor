@@ -244,10 +244,37 @@ new 3.175 down cut bit
 
 1114 wall 2.9 bit
    tab depth back to 6.35
+   - good M4 hole
 
+1115 wall 2.9 bit (good for new bit?)
+   reduced wire notch from 9mm to 5mm
+   - tabs becoming too tight
+
+1116 wall 2.85 bit
+
+1117 wall 2.8
+
+1118 btn 2.0 bit
+   need bigger screw holes from 4.1 to 4.2
+   nose shorter by 0.5mm
+   place for btn
+   - hole a bit too loose
+   - switch hole too wide - need dog ears and too shallow
+
+1119 btn 2.0 bit
+   reduced hole from 4.2 to 4.15
+   switch dog ears
+   longer nose by 0.3
+   - hole is still too loose
+   - width for switch too small
+   good!
+ 
 
 /dev/ttyACM0
 
+NEXT wall
+  holes for 6mm button
+  light holder slots lower
 
 
 
