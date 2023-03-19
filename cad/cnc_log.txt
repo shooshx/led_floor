@@ -268,7 +268,31 @@ new 3.175 down cut bit
    - hole is still too loose
    - width for switch too small
    good!
- 
+
+1120 btn 2.0 bit
+   switch fit
+
+1121 btn 8 copies 2.0 bit
+
+1122 jig - 2.8 bit first test 
+   - stock too thin
+   - part reversed
+   - ledge too short
+
+1123 jig - 2.8 bit
+   set stock to 12.4 from 12
+   mirrored part
+   set ledge to 4.5
+   made ledge deeper
+   - it rotates
+   - ledge is too long now
+
+1124 jig 2.8 bit
+   shape for corner duh
+   ledge to 4.25
+
+
+
 
 /dev/ttyACM0
 
